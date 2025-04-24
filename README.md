@@ -5,8 +5,7 @@ Bilingual Demand Planning Analyst with a strong background in SIOP forecasting, 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Adjustments)
 
 This portfolio showcases five advanced Excel-based reporting tools powered by Python, Pandas, statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations.
-Developed and deployed a Python- and SQL-driven data pipeline to fully automate reporting processes end-to-end, delivering daily, weekly, or monthly refreshes based on business needs.
-These reports were designed to eliminate manual processes, drive cost savings, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
+These reports are automated end-to-end and were designed to eliminate manual processes, drive cost savings, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
 
 ## 1. 📦 Inventory Prioritization Report Tool
 
