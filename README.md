@@ -21,24 +21,44 @@ Python (Pandas, OpenPyXL), Excel
 
 ---
 
-## 2. 📊 SIOP Inventory Allocation & Burn Down Report
+## 2. 📊 SIOP Inventory Burndown Tool (Anonymized Version)
+Powered by [inventory_burndown_tool.py](./inventory_burndown_tool.py)
 
-A time-phased inventory allocation report simulating excess-to-safety logic, POC allocations, and historical usage analysis.
+A time-phased inventory allocation report simulating excess-to-safety logic, POC allocations, and historical usage analysis. This tool automates inventory allocation, burn-down analysis, and reporting for supply chain and SIOP processes. It consolidates multiple Excel reports to generate actionable insights for planners, buyers, and executives.
 
-### 🔍 Features
+
+###  Features
 - Saves 10 hours weekly of manual Excel work and publishes daily refreshable list to Power BI for Sales Team to reduce finished goods on hand inventory
 - Monthly columns from PD through latest date
 - Allocates supply across 9 SIOP categories
+-  Consolidates inventory valuation, demand, and usage data
+- Classifies inventory into burn-down categories (0-6 months, 1-2 years, etc.)
+- Flags excess inventory based on average usage and safety stock
+- Outputs Excel reports with clear formatting and prioritization
+- Parallel file reading for speed and scalability
 - Professional Excel formatting and multithreaded data loading
 
 ### 🧰 Tools Used
-Python (Pandas, OpenPyXL), Excel
+Python (Pandas, OpenPyXL), Excel, Parallel processing with `ThreadPoolExecutor`
 
 ### 📄 Outputs
 - [`📄 Download SIOP_Inventory_Report_Power BI (PDF)`](SIOP_Inventory_Report_PowerBI_Export.pdf)
 - 📊 Multiple dashboards created in Power BI for internal use
 - [SIOP Inventory Excel Output](SIOP_Inventory_Demo.xlsx)
+  
+## Use Case
 
+Originally developed to support SIOP planning and reduce excess inventory across 5,000+ SKUs. This version uses dummy data to demonstrate how the tool enables:
+
+- Inventory visibility by burn-down timeline
+- Prioritization for rework and excess sell-through
+- Alignment of supply and demand for executive decisions
+
+## Disclaimer
+
+This is a simulated version with anonymized paths and logic. No proprietary or company-sensitive information is included.
+
+---
 ---
 
 ## 3. 🎯 Forecast Accuracy Tracker & Power BI Measures
