@@ -110,6 +110,19 @@ Python (Pandas, pmdarima, matplotlib, XlsxWriter)
 
 ## 6. Buyouts Forecast Adjustment Script
 
+Buy-out parts often exhibit sporadic, irregular demand, which makes them difficult to forecast using standard methods. This script was developed to:
+
+- Give extra weight to the most recent years’ patterns  
+- Smooth out outliers and spikes  
+- Still produce a usable forecast even for parts with very low or intermittent usage  
+
+By improving buy-out forecasts we can:
+
+- **Reduce stock-outs** of critical spare parts  
+- **Avoid excess inventory** and obsolescence costs  
+- **Optimize working capital** and purchasing budgets  
+- **Maintain service levels** without overspending  
+
 This Python script:
 - Loads a wide-format history+forecast Excel file.
 - Segments SKUs into continuous, intermittent, and buy-out.
