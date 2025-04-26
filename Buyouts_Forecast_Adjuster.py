@@ -17,10 +17,7 @@ import os, numpy as np, pandas as pd
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from statsforecast import StatsForecast
-try:
-    from statsforecast.models import AutoETS as ETS, TSB   # ≥2.0
-except ImportError:
-    from statsforecast.models import ETS, TSB              # 1.x
+from statsforecast.models import AutoETS as ETS, TSB   
 
 # User Settings
 RAW_FILE   = r"C:\path\to\wide_input.xlsx"          # wide sheet
