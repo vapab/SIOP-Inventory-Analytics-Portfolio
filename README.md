@@ -124,7 +124,8 @@ Powered by [Buyouts_Forecast_Adjuster](./Buyouts_Forecast_Adjuster.py)
 ![Demand Plan Output Power BI snapshot](<Demand_Plan.png>)
 
 ### Demand Plan Output Power BI Snapshot by Region
-![Demand Plan Output Power BI snapshot by Region](<Demand_Plan_Region.png>)
+![Demand_Plan_Region](https://github.com/user-attachments/assets/57dec03c-5944-4ea5-ac7a-4777c9caf443)
+
 
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
