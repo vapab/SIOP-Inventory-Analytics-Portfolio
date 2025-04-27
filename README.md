@@ -9,14 +9,14 @@ These reports are automated end-to-end and were designed to eliminate manual pro
 
 At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Things I did to automate the data cleaning and consolidation process:
  
-♦️ Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using raw SQL data tables to consolidate data. 
-♦️ Connected the data to a Power BI dashboard with a one click refresh.
-♦️ Shared it across the time and scheduled the updates based on the report.
+-♦️ Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using raw SQL data tables to consolidate data. 
+-♦️ Connected the data to a Power BI dashboard with a one click refresh.
+-♦️ Shared it across the time and scheduled the updates based on the report.
 
 This process for all reporting for SIOP resulted in saving:
 
-✅ ~ 60+ hours a month of manual work for myself, the SIOP Manager and the Global Sales Operations & Sales Leader
-✅ Gave us more time to actually analyze the data and the insights rather than spending numerous hours creating the report. 
+-✅ ~ 60+ hours a month of manual work for myself, the SIOP Manager and the Global Sales Operations & Sales Leader
+-✅ Gave us more time to actually analyze the data and the insights rather than spending numerous hours creating the report. 
 
 The Python libraries used for these reports, to manipulate, transform, and analyze large datasets include:
 
