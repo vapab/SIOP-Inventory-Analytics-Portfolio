@@ -2,7 +2,7 @@
 
 Demand Planning Analyst with a strong background in SIOP implementation and standardization, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
 
-# 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Adjustments)
+# 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting)
 
 This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
 These reports are automated end-to-end and were designed to eliminate manual processes, drive cost savings, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
