@@ -1,11 +1,23 @@
 ## 👋 About Me
 
-Demand Planning Analyst with a strong background in SIOP implementation, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
+Demand Planning Analyst with a strong background in SIOP implementation and standardization, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Adjustments)
 
-This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations.
+This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
 These reports are automated end-to-end and were designed to eliminate manual processes, drive cost savings, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
+
+At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Things I did to automate the data cleaning and consolidation process:
+ 
+(https://github.com/user-attachments/assets/4c27e223-f44a-4b3b-87d5-6c606891ca66) Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using raw SQL data tables to consolidate data. 
+✅ Connected the data to a Power BI dashboard with a one click refresh.
+✅ Shared it across the time and scheduled the updates based on the report.
+
+This process for all reporting for SIOP resulted in saving:
+
+✅ ~ 60+ hours a month of manual work for myself, the SIOP Manager and the Global Sales Operations & Sales Leader
+✅ Gave us more time to actually analyze the data and the insights rather than spending numerous hours creating the report. 
+
 
 ## 1. Inventory Prioritization Report Tool
 
@@ -24,8 +36,7 @@ Python (Pandas, OpenPyXL), Excel
 ## 2. SIOP Inventory Burndown Tool (Anonymized Version)
 Powered by [inventory_burndown_tool.py](./inventory_burndown_tool.py)
 
-A time-phased inventory allocation report simulating excess-to-safety logic, POC allocations, and historical usage analysis. This tool automates inventory allocation, burn-down analysis, and reporting for supply chain and SIOP processes. It consolidates multiple Excel reports to generate actionable insights for planners, buyers, and executives.
-
+A time-phased inventory allocation report simulating excess-to-safety logic, POC allocations, and historical usage analysis. This tool automates inventory allocation, burn-down analysis, and reporting for supply chain and SIOP processes. It consolidates multiple Excel reports to generate actionable insights for planners, buyers, and executives. It's helped identify millions of dollars in Excess Buyer Inventory (purchases by Buyer Name), Excess Finished Goods that were produced and don't have orders within a year timeframe, it helps Sales Executives to sell excess inventory and helps Production Managers, Engineers, and others turn excess inventory into re-work.
 
 ###  Features
 - Saves 10 hours weekly of manual Excel work and publishes daily refreshable list to Power BI for Sales Team to reduce finished goods on hand inventory
