@@ -1,6 +1,6 @@
 ## 👋 About Me
 
-Demand Planning Analyst with a strong background in SIOP implementation and standardization, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations. I combine technical expertise, creativity, and cross-functional collaboration to identify challenges and deliver scalable, data-driven solutions.
+Demand Planning Analyst specializing in SIOP, forecasting, inventory optimization, and workflow automation. I eliminate manual business processes by designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting)
 
