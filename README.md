@@ -9,15 +9,25 @@ These reports are automated end-to-end and were designed to eliminate manual pro
 
 At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Things I did to automate the data cleaning and consolidation process:
  
-(https://github.com/user-attachments/assets/4c27e223-f44a-4b3b-87d5-6c606891ca66) Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using raw SQL data tables to consolidate data. 
-✅ Connected the data to a Power BI dashboard with a one click refresh.
-✅ Shared it across the time and scheduled the updates based on the report.
+♦️ Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using raw SQL data tables to consolidate data. 
+♦️ Connected the data to a Power BI dashboard with a one click refresh.
+♦️ Shared it across the time and scheduled the updates based on the report.
 
 This process for all reporting for SIOP resulted in saving:
 
 ✅ ~ 60+ hours a month of manual work for myself, the SIOP Manager and the Global Sales Operations & Sales Leader
 ✅ Gave us more time to actually analyze the data and the insights rather than spending numerous hours creating the report. 
 
+The Python libraries used for these reports, to manipulate, transform, and analyze large datasets include:
+
+- Pandas
+- NumPy
+- Matplotlib
+- XlsxWriter (to format and export Excel report to Teams for Executives not familiar with Power BI features)
+- Openpyxl
+- For Demand Modeling: Statsmodels, Prophet, scikit-learn, scipy.stats
+- Seaborn
+- ThreadPoolExecutor (To speed up file reading process by reading multiple files simultaneously)
 
 ## 1. Inventory Prioritization Report Tool
 
@@ -27,9 +37,6 @@ Automates classification of backlog data into meaningful categories using rule-b
 - Status Mapping, Percent Of Complete (POC) logic, Hold conditions
 - Report Category with 8+ logic layers
 - Formatted Excel output with visual styling
-
-### Tools Used
-Python (Pandas, OpenPyXL), Excel
 
 ---
 
@@ -48,9 +55,6 @@ A time-phased inventory allocation report simulating excess-to-safety logic, POC
 - Outputs Excel reports with clear formatting and prioritization
 - Parallel file reading for speed and scalability
 - Professional Excel formatting and multithreaded data loading
-
-### Tools Used
-Python (Pandas, OpenPyXL), Excel, Parallel processing with `ThreadPoolExecutor`
 
 ### 📄 Outputs
 - [`📄 Download SIOP_Inventory_Report_Power BI (PDF)`](SIOP_Inventory_Report_PowerBI_Export.pdf)
@@ -81,9 +85,6 @@ Tracks MS Forecast vs Requested Sales and calculates accuracy KPIs.
 - DAX measures for WMAPE, WMAPE %, Forecast Accuracy %, Forecast Bias %
 - Dynamic Date formatting and structure for Power BI use
 
-### Tools Used
-Python (Pandas, OpenPyXL), Power BI
-
 ### 📄 Outputs
 - 📊 Power BI dashboards created for trend and KPI analysis
 - [Forecast Accuracy KPI Dashboard Sample](Forecast_Accuracy_Report_PowerBI_Export.pdf)
@@ -102,9 +103,6 @@ Adjusts 2025 forecast based on 2024 historicals by Region and Alpha Name using d
 - Preserves zero forecasts
 - Automatically adjusts all 2025 columns in-place by Region > Family > Customer Name > SKU
 
-### Tools Used
-Python (Pandas)
-
 
 ## 5. Demand Plan Forecast with Best Statistical Model Fit & Override Scaling
 
@@ -115,9 +113,6 @@ Forecasts 2025 using Exponential Smoothing, Moving Average, ARIMA, and other sta
 - Creates monthly forecast with override logic
 - Outputs Excel workbook with two charts: unadjusted vs overridden
 - Executes in under 2 minutes for thousands of SKUs
-
-### Tools Used
-Python (Pandas, pmdarima, matplotlib, XlsxWriter)
 
 ## 6. Buyouts Forecast Adjustment Script
 
