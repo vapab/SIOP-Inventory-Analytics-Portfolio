@@ -1,11 +1,11 @@
 ## 👋 About Me
 
-Demand Planning Analyst with a strong background in SIOP implementation and standardization, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
+Demand Planning Analyst with a strong background in SIOP implementation and standardization, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations. I combine technical expertise, creativity, and cross-functional collaboration to identify challenges and deliver scalable, data-driven solutions.
 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting)
 
 This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
-These reports are automated end-to-end and were designed to eliminate manual processes, drive cost savings, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
+These reports are automated end-to-end using SQL Queries, SQL raw data tables from the MRP system, Python scripts with complex logic statements, and Power BI as the main workflow pipeline to extract, clean, consolidate, transform, and export data. They were designed to eliminate manual processes, drive cost savings of millions of dollars, visually appealing insightsand reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
 
 At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Things I did to automate the data cleaning and consolidation process:
  
@@ -16,7 +16,7 @@ At my current company, I was spending hours every week manually consolidating da
 This process for all reporting for SIOP resulted in saving:
 
 ✅ ~60+ hours a month of manual work for myself, the SIOP Manager, and the Global Sales Operations & Sales Leader  
-✅ Gave us more time to actually analyze the data and the insights rather than spending numerous hours creating the report.
+✅ Gave us more time to actually analyze the data and insights rather than spending numerous hours creating the report.
 
 
 The Python libraries used for these reports, to manipulate, transform, and analyze large datasets include:
