@@ -1,6 +1,6 @@
 ## 👋 About Me
 
-Bilingual Demand Planning Analyst with a strong background in SIOP forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
+Demand Planning Analyst with a strong background in SIOP implementation, forecasting, data automation, and advanced analytics. Skilled in Python, SQL, and Power BI, with a portfolio of tools that automate and optimize supply chain operations.
 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Adjustments)
 
