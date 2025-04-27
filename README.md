@@ -146,7 +146,6 @@ Powered by [Buyouts_Forecast_Adjuster](./Buyouts_Forecast_Adjuster.py)
 ### Demand Plan Output Power BI Snapshot by Region
 ![Demand_Plan_Region](<Demand_Plan_Region.jpg>)
 
-
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
 
@@ -156,12 +155,12 @@ Powered by [Buyouts_Forecast_Adjuster](./Buyouts_Forecast_Adjuster.py)
 ### Monthly Forecast Accuracy
 ![Montlhly Forecast Accuracy](<Forecast_Accuracy_KPI_by_Month.png>)
 
-### Excess Saleable Inventory Power BI View
+### Excess Saleable Finished Goods Inventory Power BI View
 ![Excess Saleable Inventory Power BI](<Excess_FG_Inventory_List.png>)
 
 ### Inventory Burn Down by Category
 ![Inventory Burn Down by Category](<Inventory_Burn_Down.png>)
 
-### Buyer Inventory – Excess Purchases by Buyer
+### Buyer Inventory – Excess Purchases by Buyer Name
 ![Buyer Inventory](<Buyer_Excess_Inventory.png>)
 
