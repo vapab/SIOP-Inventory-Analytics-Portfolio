@@ -138,7 +138,7 @@ This Python script:
 
 Powered by [Buyouts_Forecast_Adjuster](./Buyouts_Forecast_Adjuster.py)
 
-## 📸 Screenshots (These are to showcase my projects that required extensive back-end development)  
+## 📸 Screenshots from Projects that required extensive back-end development 
 
 ### Demand Plan Output Power BI Snapshot
 ![Demand Plan Output Power BI snapshot](<Demand_Plan.png>)
