@@ -117,26 +117,30 @@ Forecasts 2025 using Exponential Smoothing, Moving Average, ARIMA, and other sta
 
 ## 6. Buyouts Forecast Adjustment Script
 
-Buy-out parts often exhibit sporadic, irregular demand, which makes them difficult to forecast using standard methods. This script was developed to:
+Buy-out parts often exhibit sporadic, irregular demand, which makes them difficult to forecast using standard methods.
+This script was developed to:
 
-- Give extra weight to the most recent years’ patterns  
-- Smooth out outliers and spikes  
-- Still produce a usable forecast even for parts with very low or intermittent usage  
+- Give extra weight to recent patterns while smoothing out historical noise
+- Classify SKUs into business-relevant groups based on frequency, volatility, and recency
+- Apply appropriate statistical models even for parts with minimal or intermittent demand
 
-By improving buy-out forecasts we can:
+By improving buy-out forecasts, we can:
 
-- **Reduce stock-outs** of critical spare parts  
-- **Avoid excess inventory** and obsolescence costs  
-- **Optimize working capital** and purchasing budgets  
-- **Maintain service levels** without overspending  
+- **Reduce stock-outs** of long-lead or high-risk parts
+- **Avoid excess inventory** and obsolescence exposure
+- **Optimize working capital** across procurement and planning
+- **Align forecasts** more tightly with SIOP processes
 
 This Python script:
-- Loads a wide-format history+forecast Excel file.
-- Segments SKUs into continuous, intermittent, and buy-out.
-- Runs ETS or TSB models and caps future values.
-- Outputs `Overrides` and `Adjusted` sheets.
 
-Powered by [Buyouts_Forecast_Adjuster](./Buyouts_Forecast_Adjuster.py)
+- Loads historical usage and lead time data from Excel
+- Segments SKUs into 'High Run-Rate', 'True Buy-Out', 'Seasonal', 'Intermittent', etc.
+- Applies ETS (for continuous demand) and TSB (for intermittent demand) models using `statsforecast`
+- Calculates dynamic safety stock based on 12-month medians and lead time
+- Caps forecast outliers to prevent inflated projections
+- Outputs 'Individual', 'Overrides', and 'Adjusted' Excel sheets with dynamic formatting
+
+Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py) 
 
 ## 📸 Screenshots from Projects that required extensive back-end development 
 
