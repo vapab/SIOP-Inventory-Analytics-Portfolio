@@ -115,7 +115,7 @@ Forecasts 2025 using Exponential Smoothing, Moving Average, ARIMA, and other sta
 - Outputs Excel workbook with two charts: unadjusted vs overridden
 - Executes in under 2 minutes for thousands of SKUs
 
-## 6. Buyouts Forecast Adjustment Script
+## 6. Buyouts Forecasting
 
 Buy-out parts often exhibit sporadic, irregular demand, which makes them difficult to forecast using standard methods.
 This script was developed to:
