@@ -1,4 +1,5 @@
-## 👋 About Me
+##  About Me
+## To see Power BI Vistualizations/Dashboard screenshots scroll to the end of the file.
 
 Strategic Planning Analyst specializing in SIOP, forecasting, inventory optimization, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
 
@@ -143,13 +144,23 @@ This Python script:
 
 Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py) 
 
-## 📸 Screenshots from Projects that required extensive back-end development 
+## 📸 Screenshots from Projects that required extensive back-end development and Power BI formatting, including the use of Vega-Lite to design custom visualizations
 
-### Demand Plan Output Power BI Snapshot
-![Demand Plan Output Power BI snapshot](<Demand_Plan_Value.png>)
+### Demand Plan Output Power BI Snapshots
+![Demand Plan Value](<Demand_Plan_Value.png>)
 
 ### Demand Plan Output Power BI Snapshot by Region
-![Demand_Plan_Region](<Demand_Plan_Region.jpg>)
+![Demand_Plan_Units](<Demand_Plan_Units.jpg>)
+
+### Filtered Demand Plan
+![Demand_Plan_Filtered](<Demand_Plan_Filtered.jpg>)
+
+### Time Series 
+![Time_Series_Value](<Time_Series_Monthly_Value.jpg>)
+![Time_Series_Value](<Time_Series_Monthly_Units.jpg>)
+![Time_Series_Value](<Time_Series_Weekly_Value.jpg>)
+![Time_Series_Value](<Time_Series_Workday_Units.jpg>)
+![Time_Series_Value](<Time_Series_Weekly_Value.jpg>)
 
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
