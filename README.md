@@ -16,6 +16,7 @@ At my current company, I was spending hours every week manually consolidating da
 This process for all reporting for SIOP resulted in saving:
 
 ✅ ~620+ hours a month of manual work for myself, the SIOP Manager, Product Managers, the Global Sales Operations Leader, and all the Supply Chain.
+
 ✅ Gave us more time to actually analyze the data and insights strategically rather than spending numerous hours putting files together to make a report.
 
 
