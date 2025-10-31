@@ -1,9 +1,10 @@
 ##  About Me
+
+Strategic Planning Analyst specializing in SIOP, Supply Chain optimization, digital transformation, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
+
 **- Power BI Vistualizations/Dashboard screenshots are at the end of the file**
 
-Strategic Planning Analyst specializing in SIOP, forecasting, inventory optimization, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
-
-# 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting)
+# 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting, Production/Supply Planning)
 
 This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
 These reports are automated end-to-end using SQL Queries, SQL raw data tables from the MRP system, Python scripts with complex logic statements, and Power BI as the main workflow pipeline to extract, clean, consolidate, transform, and export data. They were designed to eliminate manual processes, drive cost savings of millions of dollars, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
