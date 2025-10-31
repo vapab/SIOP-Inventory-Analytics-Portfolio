@@ -32,7 +32,40 @@ The Python libraries used for these reports, to manipulate, transform, and analy
 - Seaborn
 - ThreadPoolExecutor (To speed up file reading process by reading multiple files simultaneously)
 
-## 1. Inventory Prioritization Report Tool
+## 1. SIOP Time-Series & Capacity Automation (Power BI + Python/SQL): Single Source of Truth for Operations, Production and Planning
+
+Problem
+
+Manual JDE/Excel/Salesforce workflows made it impossible to:
+
+- Reconcile Demand/MRP/Work Orders against shift capacity by month and week.
+- See Past Due load and material/line constraints at a glance.
+- Run mass “what-if” analyses (thousands of SKUs) fast enough for real decisions.
+
+What I built
+
+- A governed analytics engine + Power BI model that productizes the workflow.
+
+Data/logic (Python + SQL)
+
+- Ingests data from multiple JDE tables, plus Capacity & Material Supply from an Excel file. 
+- Cleans, normalizes, and merges Q T → Type/Category, Planner → SIOP Valid, Alpha → Production Line.
+- Adds Past Due classification (WO status ranges), SKU normalization, date hardening, and ASP overrides.
+- Writes a Power BI–ready vertical file with strict column contracts and Excel formatting for audit.
+
+Key features (for stakeholders)
+
+- Single source of truth for Operations/Planning/Production/Demand/Purchasing.
+- Past Due surfaced explicitly; line/group filters for fast triage.
+- Capacity realism: optional 2nd shift & Max overlays; work-day normalization.
+
+Results
+
+- Became the company's standard dashboard for Operations.
+- Over 60+ hours/week saved.
+- Runs the entire pipeline and refresh Power BI in 3 minutes.
+
+## 2. Inventory Prioritization Report Tool
 
 Automates classification of backlog data into meaningful categories using rule-based logic consisting mainly of nested if statements. Needed to continue part two and appropriately categorize excess inventory by Buyer Name, Family, SKU, and others.
 
@@ -43,7 +76,7 @@ Automates classification of backlog data into meaningful categories using rule-b
 
 ---
 
-## 2. SIOP Inventory Burndown Tool (Anonymized Version)
+## 3. SIOP Inventory Burndown Tool (Anonymized Version)
 Powered by [inventory_burndown_tool.py](./inventory_burndown_tool.py)
 
 A time-phased inventory allocation report simulating excess-to-safety logic, POC allocations, and historical usage analysis. This tool automates inventory allocation, burn-down analysis, and reporting for supply chain and SIOP processes. It consolidates SQL data and multiple Excel reports data to generate actionable insights for planners, buyers, and executives. It's helped identify millions of dollars in Excess Buyer Inventory (purchases by Buyer Name) and Excess Finished Goods that were produced and don't have orders within a year timeframe. It helps Sales Executives sell excess inventory and helps Production Managers, Engineers, and others turn excess inventory into re-work without worrying about prioritizing inventory allocation. In addition to the final Power BI output, there is an individual output Excel file for those executives who are more familiar working in an Excel environment. All the calculations for the burndown are automatd by nested if logic statements in Python. There are no formulas in any cell for the calculations, reducing accidental click errors by 100%. 
@@ -79,7 +112,7 @@ This is a simulated version with anonymized paths and logic. No proprietary or c
 ---
 ---
 
-## 3. Forecast Accuracy Tracker & Power BI Measures
+## 4. Forecast Accuracy Tracker & Power BI Measures
 
 Tracks MS Forecast vs Requested Sales and calculates accuracy KPIs.
 
@@ -96,7 +129,7 @@ Tracks MS Forecast vs Requested Sales and calculates accuracy KPIs.
 
 --- Forecasting Models below use ML and Statistical Models that are used to supplement Forecasting Software capabilities as well as linking to Power BI for better data visualization. Data is already pre-processed by the use of other Python and SQL scripts and queries for big data manipulation. 
 
-## 4. Forecast Weighted Adjustment Based on Historical Sales
+## 5. Forecast Weighted Adjustment Based on Historical Sales
 
 Adjusts 2025 forecast based on 2024 historicals by Region and Alpha Name using dynamic month-level weights.
 
@@ -107,7 +140,7 @@ Adjusts 2025 forecast based on 2024 historicals by Region and Alpha Name using d
 - Automatically adjusts all 2025 columns in-place by Region > Family > Customer Name > SKU
 
 
-## 5. Demand Plan Forecast with Best Statistical Model Fit & Override Scaling
+## 6. Demand Plan Forecast with Best Statistical Model Fit & Override Scaling
 
 Forecasts 2025 using Exponential Smoothing, Moving Average, ARIMA, and other statistical models. Applies override to meet global unit cap as agreed with Sales, and generates before/after visual trends.
 
@@ -117,7 +150,7 @@ Forecasts 2025 using Exponential Smoothing, Moving Average, ARIMA, and other sta
 - Outputs Excel workbook with two charts: unadjusted vs overridden
 - Executes in under 2 minutes for thousands of SKUs
 
-## 6. Buyouts Forecasting
+## 7. Buyouts Forecasting
 
 Buy-out parts often exhibit sporadic, irregular demand, which makes them difficult to forecast using standard methods.
 This script was developed to:
