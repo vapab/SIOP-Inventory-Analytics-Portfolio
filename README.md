@@ -150,17 +150,17 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ![Demand Plan Value](<Demand_Plan_Value.png>)
 
 ### Demand Plan Output Power BI Snapshot by Region
-![Demand_Plan_Units](<Demand_Plan_Units.jpg>)
+![Demand_Plan_Units](<Demand_Plan_Units.png>)
 
 ### Filtered Demand Plan
-![Demand_Plan_Filtered](<Demand_Plan_Filtered.jpg>)
+![Demand_Plan_Filtered](<Demand_Plan_Filtered.png>)
 
-### Time Series 
-![Time_Series_Value](<Time_Series_Monthly_Value.jpg>)
-![Time_Series_Value](<Time_Series_Monthly_Units.jpg>)
-![Time_Series_Value](<Time_Series_Weekly_Value.jpg>)
-![Time_Series_Value](<Time_Series_Workday_Units.jpg>)
-![Time_Series_Value](<Time_Series_Weekly_Value.jpg>)
+### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
+![Time_Series_Value](<Time_Series_Monthly_Value.png>)
+![Time_Series_Value](<Time_Series_Monthly_Units.png>)
+![Time_Series_Value](<Time_Series_Weekly_Value.png>)
+![Time_Series_Value](<Time_Series_Workday_Units.png>)
+![Time_Series_Value](<Time_Series_Weekly_Value.png>)
 
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
