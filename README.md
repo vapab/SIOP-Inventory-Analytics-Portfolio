@@ -169,9 +169,6 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ### Weekly View Units by total working days 
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
 
-### Weekly View Value
-![Time_Series_Value](<Time_Series_Weekly_Value.png>)
-
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
 
