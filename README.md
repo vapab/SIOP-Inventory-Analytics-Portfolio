@@ -34,7 +34,7 @@ The Python libraries used for these reports, to manipulate, transform, and analy
 
 ## 1. SIOP Time-Series & Capacity Automation (Power BI + Python/SQL): Single Source of Truth for Operations, Production and Planning
 
-Problem
+### Problem
 
 Manual JDE/Excel/Salesforce workflows made it impossible to:
 
@@ -42,24 +42,24 @@ Manual JDE/Excel/Salesforce workflows made it impossible to:
 - See Past Due load and material/line constraints at a glance.
 - Run mass “what-if” analyses (thousands of SKUs) fast enough for real decisions.
 
-What I built
+### What I built
 
-- A governed analytics engine + Power BI model that productizes the workflow.
+- A governed analytics engine + Power BI model that automated the manual Excel and JDE reporting workflow.
 
-Data/logic (Python + SQL)
+### Data/logic (Python + SQL)
 
 - Ingests data from multiple JDE tables, plus Capacity & Material Supply from an Excel file. 
 - Cleans, normalizes, and merges Q T → Type/Category, Planner → SIOP Valid, Alpha → Production Line.
 - Adds Past Due classification (WO status ranges), SKU normalization, date hardening, and ASP overrides.
 - Writes a Power BI–ready vertical file with strict column contracts and Excel formatting for audit.
 
-Key features (for stakeholders)
+### Key features (for stakeholders)
 
 - Single source of truth for Operations/Planning/Production/Demand/Purchasing.
 - Past Due surfaced explicitly; line/group filters for fast triage.
 - Capacity realism: optional 2nd shift & Max overlays; work-day normalization.
 
-Results
+### Results
 
 - Became the company's standard dashboard for Operations.
 - Over 60+ hours/week saved.
