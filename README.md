@@ -56,14 +56,14 @@ Manual JDE/Excel/Salesforce workflows made it impossible to:
 ### Key features (for stakeholders)
 
 - Single source of truth for Operations/Planning/Production/Demand/Purchasing.
-- Past Due surfaced explicitly; line/group filters for fast triage.
+- Past Due surfaced explicitly; line/group filters for faster action.
 - Capacity realism: optional 2nd shift & Max overlays; work-day normalization.
 
 ### Results
 
 - Became the company's standard dashboard for Operations.
 - Over 60+ hours/week saved.
-- Runs the entire pipeline and refresh Power BI in 3 minutes.
+- Runs the entire pipeline and refresh Power BI in 3 minutes vs a manual process of 6-8 hours per update.
 
 ## 2. Inventory Prioritization Report Tool
 
