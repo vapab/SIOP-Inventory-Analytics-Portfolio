@@ -180,10 +180,10 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 
 ## 📸 Screenshots from Projects that required extensive backend and Power BI development, including the use of Vega-Lite to design custom visualizations
 
-### Demand Plan Output Power BI Snapshots
+### Demand Plan Value Output Power BI Snapshots
 ![Demand Plan Value](<Demand_Plan_Value.png>)
 
-### Demand Plan Output Power BI Snapshot by Region
+### Demand Plan Units Output Power BI Snapshot 
 ![Demand_Plan_Units](<Demand_Plan_Units.png>)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
