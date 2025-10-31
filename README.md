@@ -144,7 +144,7 @@ This Python script:
 
 Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py) 
 
-## 📸 Screenshots from Projects that required extensive back-end development and Power BI formatting, including the use of Vega-Lite to design custom visualizations
+## 📸 Screenshots from Projects that required extensive backend and Power BI development, including the use of Vega-Lite to design custom visualizations
 
 ### Demand Plan Output Power BI Snapshots
 ![Demand Plan Value](<Demand_Plan_Value.png>)
