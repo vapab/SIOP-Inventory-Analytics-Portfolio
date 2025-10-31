@@ -197,8 +197,8 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ### Weekly View Value (drill-down)
 ![Time_Series_Value](<Time_Series_Weekly_Value.png>)
 
-### Weekly View Value
-![Time_Series_Value](<Time_Series_Weekly_Value.png>)
+### Weekly View Units (drill-down)
+![Time_Series_Value](<Time_Series_Weekly_Units.png>)
 
 ### Weekly View Units by total working days 
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
