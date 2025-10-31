@@ -6,8 +6,8 @@ Strategic Planning Analyst specializing in SIOP, Supply Chain optimization, digi
 
 # 📊 Inventory Analytics Portfolio (SIOP, Prioritization, Forecast Accuracy, Demand Forecasting, Production/Supply Planning)
 
-This portfolio showcases six advanced reporting tools powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
-These reports are automated end-to-end using SQL Queries, SQL raw data tables from the MRP system, Python scripts with complex logic statements, and Power BI as the main workflow pipeline to extract, clean, consolidate, transform, and export data. They were designed to eliminate manual processes, drive cost savings of millions of dollars, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy.
+This portfolio showcases 7 advanced projects powered by Python, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
+These reports are automated end-to-end using SQL Queries, SQL raw data tables from the MRP system, Python scripts with complex logic statements and business rules, and Power BI as the main workflow pipeline to extract, clean, consolidate, transform, load, and export data. They were designed to eliminate manual processes, drive cost savings of thousands of dollars, and reduce human error, leveraging Python and SQL to enable large-scale data automation and support the company’s digital transformation strategy and strategic plan.
 
 At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Colleagues in Supply Chain, Product Management, Sales and Operations were struggling with the same. Things I did to automate the data cleaning and consolidation process:
  
