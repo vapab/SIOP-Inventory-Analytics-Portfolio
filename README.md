@@ -154,18 +154,22 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
 
-## Monthly View Value
+### Monthly View Value
 ![Time_Series_Value](<Time_Series_Monthly_Value.png>)
 
-## Monthly View Units
+### Monthly View Units
 ![Time_Series_Value](<Time_Series_Monthly_Units.png>)
 
-#Weekly View Value (drill-down)
+### Weekly View Value (drill-down)
 ![Time_Series_Value](<Time_Series_Weekly_Value.png>)
 
-#Weekly View Units by total working days (drill-down)
+### Weekly View Value
+![Time_Series_Value](<Time_Series_Weekly_Value.png>)
+
+### Weekly View Units by total working days 
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
 
+### Weekly View Value
 ![Time_Series_Value](<Time_Series_Weekly_Value.png>)
 
 ### Forecast Accuracy KPI Snapshot
