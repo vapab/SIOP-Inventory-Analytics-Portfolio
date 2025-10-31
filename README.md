@@ -146,7 +146,7 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ## 📸 Screenshots from Projects that required extensive back-end development 
 
 ### Demand Plan Output Power BI Snapshot
-![Demand Plan Output Power BI snapshot](<"Demand_Plan_Value.png">)
+![Demand Plan Output Power BI snapshot](<Demand_Plan_Value.png>)
 
 ### Demand Plan Output Power BI Snapshot by Region
 ![Demand_Plan_Region](<Demand_Plan_Region.jpg>)
