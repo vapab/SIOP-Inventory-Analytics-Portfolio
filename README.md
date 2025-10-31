@@ -152,14 +152,20 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ### Demand Plan Output Power BI Snapshot by Region
 ![Demand_Plan_Units](<Demand_Plan_Units.png>)
 
-### Filtered Demand Plan
-![Demand_Plan_Filtered](<Demand_Plan_Filtered.png>)
-
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
+
+## Monthly View Value
 ![Time_Series_Value](<Time_Series_Monthly_Value.png>)
+
+## Monthly View Units
 ![Time_Series_Value](<Time_Series_Monthly_Units.png>)
+
+#Weekly View Value (drill-down)
 ![Time_Series_Value](<Time_Series_Weekly_Value.png>)
+
+#Weekly View Units by total working days (drill-down)
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
+
 ![Time_Series_Value](<Time_Series_Weekly_Value.png>)
 
 ### Forecast Accuracy KPI Snapshot
