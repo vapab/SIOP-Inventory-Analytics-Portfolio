@@ -183,11 +183,11 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ### Demand Plan Value Output Power BI Snapshots
 ![Demand Plan Value](<Demand_Plan_Value.png>)
 
-### Supplier Productivity
-![Supplier Productivity](<Screenshot 2025-11-28 100135.png>)
-
 ### Demand Plan Units Output Power BI Snapshot 
 ![Demand_Plan_Units](<Demand_Plan_Units1.png>)
+
+### Supplier Productivity
+![Supplier Productivity](<Screenshot 2025-11-28 100135.png>)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
 
