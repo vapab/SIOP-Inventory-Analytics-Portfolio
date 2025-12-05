@@ -179,6 +179,31 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 
 ## 📸 Screenshots from Projects that required extensive backend and Power BI development, including the use of Vega-Lite to design custom visualizations
 
+### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Exexcutive Version)
+
+### Monthly View - Executive version
+![Time_Series_Units](<Screenshot 2025-12-05 101402.png>)
+
+### Monthly View Units by total working days - Executive Version
+![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
+
+### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Materials Planning Version)
+
+### Monthly View Value - Materials Planning Version
+![Time_Series_Value](<Time_Series_Monthly_Value.png>)
+
+### Monthly View Units - Materials Planning Version
+![Time_Series_Value](<Time_Series_Monthly_Units.png>)
+
+### Weekly View Value (drill-down) - Materials Planning Version
+![Time_Series_Value](<Time_Series_Weekly_Value.png>)
+
+### Weekly View Units (drill-down) - Materials Planning Version
+![Time_Series_Value](<Time_Series_Weekly_Units.png>)
+
+### Weekly View Units by total working days - Materials Planning Version
+![Time_Series_Value](<Time_Series_Workday_Units.png>)
+
 ### Demand Plan Value Output Power BI Snapshots
 ![Demand Plan Value](<Demand_Plan_Value.png>)
 
@@ -190,23 +215,6 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 
 ### Cost Trends by SKU
 ![Cost Trends by SKU](<Screenshot 2025-11-30 153027.png>)
-
-### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply
-
-### Monthly View Value
-![Time_Series_Value](<Time_Series_Monthly_Value.png>)
-
-### Monthly View Units
-![Time_Series_Value](<Time_Series_Monthly_Units.png>)
-
-### Weekly View Value (drill-down)
-![Time_Series_Value](<Time_Series_Weekly_Value.png>)
-
-### Weekly View Units (drill-down)
-![Time_Series_Value](<Time_Series_Weekly_Units.png>)
-
-### Weekly View Units by total working days 
-![Time_Series_Value](<Time_Series_Workday_Units.png>)
 
 ### Forecast Accuracy KPI Snapshot
 ![Forecast Accuracy KPI snapshot](<Forecast_Accuracy_KPI.png>)
