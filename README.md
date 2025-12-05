@@ -46,6 +46,15 @@ Manual JDE/Excel/Salesforce workflows made it impossible to:
 
 - A governed analytics engine + Power BI model that automated the manual Excel and JDE reporting workflow.
 
+### Monthly View - Executive version
+![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
+
+### Monthly View Units - Materials Planning Version
+![Time_Series_Value](<Time_Series_Monthly_Units.png>)
+
+### Weekly View Units by total working days - Materials Planning Version
+![Time_Series_Value](<Time_Series_Workday_Units.png>)
+
 ### Data/logic (Python + SQL)
 
 - Ingests data from multiple JDE tables, plus Capacity & Material Supply from an Excel file. 
