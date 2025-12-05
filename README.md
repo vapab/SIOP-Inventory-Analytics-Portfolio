@@ -182,10 +182,10 @@ Powered by [Buyouts_Forecast](./Buyouts_Business_Rules_Forecast.py)
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Exexcutive Version)
 
 ### Monthly View - Executive version
-![Time_Series_Units](<Screenshot 2025-12-05 101402.png>)
+![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
 
 ### Monthly View Units by total working days - Executive Version
-![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
+![Time_Series_Units](<Screenshot 2025-12-05 101402.png>)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Materials Planning Version)
 
