@@ -55,6 +55,9 @@ Manual JDE/Excel/Salesforce workflows made it impossible to:
 ### Weekly View Units by total working days - Materials Planning Version
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
 
+### Backlog Capacity Catch Up
+![Backlog_Capacity](<Backlog Capacity.png>)
+
 ### Data/logic (Python + SQL)
 
 - Ingests data from multiple JDE tables, plus Capacity & Material Supply from an Excel file. 
