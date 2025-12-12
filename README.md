@@ -49,14 +49,15 @@ Manual JDE/Excel/Salesforce workflows made it impossible to:
 ### Monthly View - Executive version
 ![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
 
+### Capacity & Backlog Rebalancing Plan
+![Backlog_Capacity](<Backlog Capacity.png>)
+
 ### Monthly View Units - Materials Planning Version
 ![Time_Series_Value](<Time_Series_Monthly_Units.png>)
 
 ### Weekly View Units by total working days - Materials Planning Version
 ![Time_Series_Value](<Time_Series_Workday_Units.png>)
 
-### Backlog Capacity Catch Up
-![Backlog_Capacity](<Backlog Capacity.png>)
 
 ### Data/logic (Python + SQL)
 
