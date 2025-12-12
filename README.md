@@ -1,4 +1,4 @@
-**- Power BI Vistualizations/Dashboard screenshots are at the end of the file (please scroll all the way down to see the visuals)**
+**- Power BI Vistualizations/Dashboard screenshots are at the end of the file (please scroll all the way down to see more of the visuals)**
 ##  About Me
 
 Strategic Planning Analyst specializing in SIOP, Supply Chain optimization, digital transformation, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
