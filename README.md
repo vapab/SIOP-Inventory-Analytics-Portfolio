@@ -10,7 +10,7 @@ These reports are automated end-to-end using SQL Queries, SQL raw data tables fr
 
 At my current company, I was spending hours every week manually consolidating data from multiple sources just to create a recurring report. It was extremely time-consuming and also increased the risk of errors that drained my energy before I really got to the analysis part. Colleagues in Supply Chain, Product Management, Sales and Operations were struggling with the same. Things I did to automate the data cleaning and consolidation process:
  
-- Identified repetitive Excel tasks (including VLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using connections to raw SQL data tables, SQL Queries and API connections to consolidate data from multiple systems including: Oracle, Excel, Salesforce, Coupa, among others. 
+- Identified repetitive Excel tasks (including V/XLOOKUPS, SUMIFS, TRIM, PivotTables, IFERROR, COUNTIF, MAX, MIN, among many others) and created a Python workflow using connections to raw SQL data tables, SQL Queries and API connections to consolidate data from multiple systems including: Oracle, Excel, Salesforce, Coupa, among others. 
 - Connected the data to a Power BI dashboard with a one-click refresh.  
 - Shared it across the team and scheduled the updates based on the report.  
 
