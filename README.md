@@ -28,7 +28,7 @@ These reports are automated end-to-end using SQL Queries, SQL raw data tables fr
 ![Open_POs](<Open POs.jpg>)
 
 ### Customer Orders
-![Open_POs](<Open Customer_SOs.jpg>)
+![Open_SOs](<Open Customer_SOs.jpg>)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Materials Planning Version)
 
