@@ -1,7 +1,7 @@
-**- Power BI Vistualizations/Dashboard screenshots are at the end of the file (please scroll all the way down to see more of the process behind the visuals)**
+**- Power BI Vistualizations/Dashboards for Materials, Demand, and Operations Management. (please scroll all the way down to see more of the process behind the visuals)**
 ##  About Me
 
-Supply Chain Leader specializing in SIOP, Supply Chain optimization, digital transformation, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
+Data-Driven Supply Chain Leader specializing in SIOP, Supply Chain optimization, digital transformation, and workflow automation. I eliminate manual business processes by automating workflows and designing end-to-end data reporting solutions and developing dashboards with Python, SQL, and Power BI, transforming large datasets into actionable insights. I thrive in dynamic environments and excel at building scalable solutions from the ground up.
 
 
 
@@ -23,6 +23,12 @@ These reports are automated end-to-end using SQL Queries, SQL raw data tables fr
 ![Time_Series_Units](<Screenshot 2025-12-05 101402.png>)
 
 ### Open Orders & Backlog
+
+### Supplier POs
+![Open_POs](<Open POs.jpg>)
+
+### Customer Orders
+![Open_POs](<Open Customer_SOs.jpg>)
 
 ### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Materials Planning Version)
 
