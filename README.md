@@ -22,6 +22,9 @@ These reports are automated end-to-end using SQL Queries, SQL raw data tables fr
 ### Monthly View Units by total working days - Executive Version
 ![Time_Series_Units](<Screenshot 2025-12-05 101402.png>)
 
+### Capacity & Backlog Rebalancing Plan
+![Backlog_Capacity](<Backlog Capacity.png>)
+
 ### Open Orders & Backlog
 
 ### Supplier POs
