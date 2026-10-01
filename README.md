@@ -14,7 +14,7 @@ These reports are automated end-to-end using SQL Queries, SQL raw data tables fr
 
 ## 📸 Screenshots from Projects that required extensive backend (SQL and Python) and Power BI development, including the use of Vega-Lite to design custom visualizations
 
-### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Exexcutive Version)
+### Time Series - Single source of truth for Demand/MRP/WO/Production Plan/Supply Plan/Capacity & Material Supply (Executive Version)
 
 ### Monthly View - Executive version
 ![Time_Series_Units](<Screenshot 2025-12-05 101337.png>)
