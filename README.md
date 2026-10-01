@@ -5,7 +5,7 @@ Data-Driven Supply Chain Leader specializing in SIOP, Supply Chain optimization,
 
 
 
-# 📊 Inventory Analytics Portfolio (SIOP, Materials Management, Demand Management, Forecasting, Production/Supply Planning)
+# 📊 Supply Chain Analytics Portfolio (SIOP, Materials Management, Demand Management, Forecasting, Production/Supply Planning)
 
 
 This portfolio showcases multiple advanced projects powered by Python, SQL, Pandas, Statistical models, and forecasting logic. All reports use dummy data and simulate real-world demand planning and inventory logic for supply chain operations. 
